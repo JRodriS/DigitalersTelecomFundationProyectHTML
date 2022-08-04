@@ -1,0 +1,275 @@
+/* ------------Google Fonts------------ */
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+/* ------------Generales------------ */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #F2F2F2;
+    color: #333;
+}
+
+footer, main, header, aside {
+    width: 100%;
+}
+
+/* ------------NavBar------------ */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    border-top: 2px solid rgb(252,238,33);
+    padding: 20px;
+}
+
+nav h1 {
+    font-size: 3.5em;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a, footer a {
+    margin-left: 20px;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+nav a {
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#links, nav h1 {
+    width: 33.33%;
+    margin: 0;
+}
+
+/* ------------Header------------ */
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+}
+
+#parrafo {
+    font-size: 2em;
+}
+
+/* ------------Main------------ */
+main {
+    font-size: 21px;
+}
+
+/* ------------Titles------------ */
+h1 {
+    font-size: 64px;
+}
+
+h1, strong {
+    font-weight: 700;
+}
+
+h1 strong, nav h1 {
+    font-family: 'Coiny', cursive;
+    font-size: 117.33px;
+}
+
+h2 {
+    font-weight: none; 
+    font-size: 26.66px;
+    background-color: rgb(252,238,33);;
+}
+
+h3 { 
+    font-weight: 900;
+}
+
+h1, h2, h3, h4{
+    color: black;
+}
+h2, h3{
+    font-size: 2.66em;
+    background-color: #FCEE21;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 4.25em;
+    color: white;
+    background-color: black;
+    line-height: 100px;
+    padding: 10px;
+}
+
+/* ------------Section------------ */
+section {
+    width: 50%;
+}
+
+/* ------------Containers------------ */
+.contenedor {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.contenedor img {
+    width: 100%;
+    margin: 24px;
+}
+
+#enunciado {
+    font-weight: 700;
+    font-size: 4.25em;
+    background-color: black;
+    color: white;
+}
+
+/* ------------Images------------ */
+img {
+    width: 100%;
+}
+
+/* ------------Paragraphs------------ */
+p {
+    font-size: 1.75em;
+}
+
+/* ------------Links------------ */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#links a {
+    text-transform: capitalize;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+/* ------------Lists------------ */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+ol li {
+    margin-bottom: 6%;
+}
+
+.encolumnar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ------------Colors------------ */
+.color {
+    background-color: rgba(252, 238, 33, 0.7);
+    font-weight: 700;
+    font-size: 2.75em;
+}
+
+/* ------------Forms------------ */
+form {
+    margin: auto;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.66em;
+    font-weight: 700;
+}
+
+input {
+    height: 40px;
+}
+
+input[type="reset"], input[type="submit"] {
+    width: 49.7%;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+input {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+}
+
+textarea {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+}
+
+label span {
+    color: #c1272D;
+}
+
+span {
+    color: red;
+}
+
+/* ------------Aside------------ */
+aside img {
+    width: 8.33%;
+    height: auto;
+}
+
+aside div {
+    display: flex;
+    justify-content: center;
+}
+
+#redes p {
+    font-size: 2.08em;
+    color: #808080;
+    font-weight: 700;
+}
+
+#redes img:hover {
+    filter: opacity(0.5);
+}
+
+a img {
+    display:block;
+    margin:25px auto 0 auto; 
+    width: 30%;
+}
+
+/* ------------Footer------------ */
+footer h1{
+    height: 100px;
+    padding: 10px;
+    font-size: 33px;
+    font-family: 'Coiny', cursive;
+    background-color: #FCEE21;
+}
